@@ -1,0 +1,204 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 10px;
+}
+body{
+	width: 100%;
+	background-image: url(../img/bg.png);
+	background-size: 100%;
+}
+.clearfix:after{
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden
+}
+.clearfix{
+	*+height:1%;
+}
+.container{
+	background-image: url(../img/bg.png);
+	background-size: 100%;
+	width: 100%;
+}
+.header{
+	width: 70%;
+}
+#logo{
+	margin-top: 2%;
+	width: 30%;
+}
+.main{
+	position: relative;
+	width: 100%;
+}
+#main-bg{
+	width: 100%;
+}
+.intro{
+	position: absolute;
+	left: 15%;
+	top: 13%;
+}
+#intro{
+	width: 100%;
+}
+.btn1{
+	position: absolute;
+	left: 5%;
+	top: 30%;
+	cursor: pointer;
+}
+.btn2{
+	position: absolute;
+	right: 5%;
+	top: 30%;
+	cursor: pointer;
+}
+.zfq{
+	width: 75%;
+}
+.ticket{
+	width: 50%;
+	float: left;
+	background-image: url(../img/ticket-bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	/*position: relative;*/
+}
+/*#ticket{
+	width: 90%;
+}*/
+#tp{
+	width: 55%;
+	margin-left: 10%;
+	/*position: absolute;
+	left: 19	%;
+	top: 50rem;*/
+}
+#qp{
+	width: 55%;
+	margin-top: 4%;
+	margin-left: 8%;
+	/*position: absolute;
+	left: 15%;
+    top: 74rem;*/
+}
+.time{
+	width: 50%;
+	float: left;
+}
+#time{
+	width: 90%;
+}
+.photo{
+	/*background-image: url(../img/photo.png);	*/
+    height:35rem;
+	width: 67%;
+	position: relative;
+	margin-top: 10%;
+
+}
+#photo{
+	width: 90%;
+	position: absolute;
+}
+.p{
+	width: 68%;
+	position: absolute;
+	z-index: 999;
+	left: 5%;
+	top: 5%;
+}
+.swiper-wrapper{
+	width: 50%;
+}
+.weibo{
+	width: 65%;
+	position: relative;
+	z-index: 1;
+}
+#weibo{
+	width: 100%;
+}
+.footer{
+	width: 100%;
+}
+#footer{
+	width: 100%;
+}
+/*@media screen and (max-width: 1200px){
+	#tp{
+		position: absolute;
+		top: 80%;
+	}
+}*/
+@media screen and (max-width: 1200px){
+	#intro{
+		width: 90%;
+	}
+}
+@media screen and (max-width: 1100px){
+	#intro{
+		width: 80%;
+	}
+	
+}
+@media screen and (max-width: 1000px){
+	
+	#intro{
+		width:70%; 
+	}
+}
+@media screen and (max-width: 850px){
+	
+	#intro{
+		width: 65%;
+	}
+}
+@media screen and (max-width: 800px){
+	#intro{
+		width: 55%;
+	}
+}
+@media screen and (max-width: 750px){
+	
+	#intro{
+		width: 55%;
+	}
+}
+@media screen and (max-width: 700px){
+	#intro{
+		width: 50%;
+	}
+}
+@media screen and (max-width: 650px){
+	
+	#intro{
+		width: 45%;
+	}
+}
+@media screen and (max-width: 570px){
+	#intro{
+		width: 40%;
+	}
+}
+@media screen and (max-width: 500px){
+	#intro{
+		width: 35%;
+	}
+}
+@media screen and (max-width: 450px){
+	#intro{
+		width: 30%;
+	}
+}
+@media screen and (max-width: 400px){
+	#intro{
+		width: 25%;
+	}
+}
