@@ -108,10 +108,10 @@ body{
 	position: absolute;
 }
 .p{
-	width: 68%;
+	width: 70%;
 	position: absolute;
 	z-index: 999;
-	left: 5%;
+	left: 12%;
 	top: 5%;
 }
 .swiper-wrapper{
@@ -139,7 +139,7 @@ body{
 }*/
 @media screen and (max-width: 1200px){
 	#intro{
-		width: 90%;
+		width: 90%;						
 	}
 }
 @media screen and (max-width: 1100px){
